@@ -564,6 +564,13 @@ ol {
 .footer-svg {
   fill: #f4f4fd;
 }
+.footer-svg:hover {
+  background-color: #31d0aa;
+}
+
+.footer-svg:focus {
+  background-color: #31d0aa;
+}
 
 .footer-media-text {
   font-weight: 500;
