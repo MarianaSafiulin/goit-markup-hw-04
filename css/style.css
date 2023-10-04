@@ -109,6 +109,7 @@ ol {
   left: 0;
   bottom: -1px;
   height: 4px;
+  width: 100%;
   background-color: #404bbf;
   border-radius: 2px;
 }
@@ -380,7 +381,7 @@ ol {
   gap: 24px;
   align-items: center;
 
-  margin-top: auto;
+  margin-top: 8px;
 }
 .svg-social-media {
   justify-content: center;
@@ -388,12 +389,7 @@ ol {
   width: 40px;
   height: 40px;
 }
-.svg-social-media:focus {
-  background-color: #404bbf;
-}
-.svg-social-media:hover {
-  background-color: #404bbf;
-}
+
 .svg-icons-team {
   fill: #f4f4fd;
 }
@@ -414,10 +410,10 @@ ol {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .container-svg-item:hover {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 .container-svg-item:focus {
-  background-color: #404bbf;
+  background-color: #31d0aa;
 }
 
 /**==========PORTFOLIO============**/
@@ -524,12 +520,6 @@ ol {
   display: flex;
   gap: 16px;
   align-items: baseline;
-}
-.container-footer-container:focus {
-  background-color: #31d0aa;
-}
-.container-footer-container:hover {
-  background-color: #31d0aa;
 }
 
 .footer-container-svg {
