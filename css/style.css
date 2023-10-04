@@ -480,7 +480,14 @@ ol {
   background-color: #2e2f42;
   padding-top: 100px;
 }
+.container-footer-container {
+  display: flex;
+  align-items: baseline;
+}
 
+.footer-content-logo {
+  margin: 120px;
+}
 .footer-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
@@ -503,21 +510,18 @@ ol {
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 
   max-width: 264px;
 }
 .footer-media {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer-media-text {
-  font-size: 16px;
   font-weight: 500;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
