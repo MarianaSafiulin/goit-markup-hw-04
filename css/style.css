@@ -525,6 +525,13 @@ ol {
   gap: 16px;
   align-items: baseline;
 }
+.container-footer-container:focus {
+  background-color: #31d0aa;
+}
+.container-footer-container:hover {
+  background-color: #31d0aa;
+}
+
 .footer-container-svg {
   gap: 16px;
   display: flex;
@@ -563,13 +570,6 @@ ol {
 }
 .footer-svg {
   fill: #f4f4fd;
-}
-.footer-svg:hover {
-  background-color: #31d0aa;
-}
-
-.footer-svg:focus {
-  background-color: #31d0aa;
 }
 
 .footer-media-text {
